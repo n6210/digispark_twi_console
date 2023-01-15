@@ -6,8 +6,7 @@ HW USI peripherial is used and SW USB implementation.
 
 For a Holtek the TWI address must be changed to be current one.
 
-Maximal length of the single transfer 32 bytes. When different
-length is required, it has to be changed in TinyWires library.
+Maximal length of the single receive transfer 64 bytes.
 
 Checked with a Digispark board
 ![Digispark board](digispark-attiny85.jpg)

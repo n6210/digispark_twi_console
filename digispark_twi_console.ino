@@ -6,6 +6,12 @@
   License as published by the Free Software Foundation; either
   version 2.1 of the License, or (at your option) any later version.
 */
+
+// Redefine RX buffer for compatibility with original UM201XB
+#define TWI_RX_BUFFER_SIZE 64
+// We do not use TX feature
+#define TWI_TX_BUFFER_SIZE 8
+
 #include <TinyWireS.h>
 #include <DigiCDC.h>
 
