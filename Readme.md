@@ -13,8 +13,8 @@ Checked with a Digispark board
 ![Digispark board](digispark-attiny85.jpg)
 
 Connections:
-- SCL (A5)
-- SDA (A4)
+- SCL (PB2)
+- SDA (PB0)
 - GND
 
 ![Digispark scematic](digispark_sch.png)
